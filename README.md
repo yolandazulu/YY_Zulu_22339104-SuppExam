@@ -16,18 +16,7 @@ This repository contains an end-to-end machine learning, spatial analysis, and i
 
 ---
 
-## 2. Repository Structure
-- `YY_Zulu_22339104.ipynb` / `YY_Zulu_22339104 (1).ipynb` — Complete, step-by-step executed Jupyter Notebook with plain-English explanations, data quality checks, spatial feature engineering (`EPSG:32735`), EDA, leakage-free hotspot classification, K-Means risk clustering, Z-score anomaly detection, 3-hotspot deep-dive comparison (`Kempton Park`, `Tembisa`, `Germiston`), algorithmic complexity analysis, and AI prompts log.
-- `app.py` — Interactive Streamlit dashboard for exploring spatial hotspots, seasonal patterns, model performance metrics, and prevention insights.
-- `ekurhuleni_panel_data.csv` — Cleaned 4,914-row station-quarter-category panel dataset with spatial densities, lagged features, hotspot flags, anomaly Z-scores, and model predictions.
-- `ekurhuleni_station_summary.csv` — Station-level summary table with surface area ($\text{km}^2$), K-Means risk cluster tiers, and mean category densities.
-- `ekurhuleni_boundaries.geojson` — Ekurhuleni police precinct polygons for interactive choropleth mapping.
-- `model_metrics.json` — Saved evaluation metrics (Confusion Matrices, Classification Reports, ROC curves, Permutation Feature Importances).
-- `requirements.txt` — Open-source Python dependencies.
-
----
-
-## 3. Running the Streamlit Dashboard Locally
+## 2. Running the Streamlit Dashboard Locally
 ```bash
 pip install -r requirements.txt
 python -m streamlit run app.py
