@@ -1,5 +1,5 @@
 # Ekurhuleni Women-Safety Analytics & Hotspot Classification
-**TLPR200 / TPRO200 — Supplementary Examination 2026**
+**TPRO200**
 
 - **Candidate:** Y.Y. Zulu
 - **Student Number:** `22339104`
